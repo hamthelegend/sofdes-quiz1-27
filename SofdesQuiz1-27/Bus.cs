@@ -1,11 +1,10 @@
 ﻿namespace SofdesQuiz1_27;
 
-public class Taxi : TransportationVehicle{
+public class Bus : TransportationVehicle{
     public override void FareRate() {
-        Console.WriteLine("Taxi fixed rate is : 200");
+        Console.WriteLine("Bus fixed rate is : 150");
     }
-
     public override void Move() {
-        Console.WriteLine("The Taxi is Moving......");
+        Console.WriteLine("The Bus is Moving......");
     }
 }

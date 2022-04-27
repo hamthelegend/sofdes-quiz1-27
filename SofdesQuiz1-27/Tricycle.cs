@@ -1,11 +1,10 @@
 ﻿namespace SofdesQuiz1_27;
 
-public class Bus : TransportationVehicle{
+public class Tricycle : TransportationVehicle{
     public override void FareRate() {
-        Console.WriteLine("Bus fixed rate is : 150");
+        Console.WriteLine("Tricycle fixed rate is : 100");
     }
-
     public override void Move() {
-        Console.WriteLine("The Bus is Moving......");
+        Console.WriteLine("The Tricycle is Moving......");
     }
 }
